@@ -11,7 +11,7 @@ df.rename(columns={'Purchased':'Premium','Salary':'Balance'},inplace=True)
 
 
 country_array = ["France","Germany","Belgium","England","Spain","Italy","Denmark","Austria","Holland"];
-random_data_size = 100
+random_data_size = 100000
 
 for i in range(random_data_size):
     random.seed(52+i)
